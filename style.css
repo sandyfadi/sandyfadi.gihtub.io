@@ -15,6 +15,24 @@
   visibility: hidden;
 }
 
+.libre-baskerville-regular {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-baskerville-bold {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -442,6 +460,7 @@ select option:first-child {
   #input-names,
   #input-names-label,
   #input-number-of-guests-label,
+  #contact-us,
   #input-attendance-label,
   #a-wedding-list-label {
     font-size: calc(4.02628539em - var(--ffsd));
@@ -451,6 +470,7 @@ select option:first-child {
   #input-names,
   #input-names-label,
   #input-number-of-guests-label,
+  #contact-us,
   #input-attendance-label,
   #a-wedding-list-label {
     font-size: calc(4.10845448em - var(--ffsd));
@@ -460,6 +480,7 @@ select option:first-child {
   #input-names,
   #input-names-label,
   #input-number-of-guests-label,
+  #contact-us,
   #input-attendance-label,
   #a-wedding-list-label {
     font-size: calc(3.125em - var(--ffsd));
@@ -469,6 +490,7 @@ select option:first-child {
   #input-names,
   #input-names-label,
   #input-number-of-guests-label,
+  #contact-us,
   #input-attendance-label,
   #a-wedding-list-label {
     font-size: calc(2.34375em - var(--ffsd));
@@ -478,6 +500,7 @@ select option:first-child {
   #input-names,
   #input-names-label,
   #input-number-of-guests-label,
+  #contact-us,
   #input-attendance-label,
   #a-wedding-list-label {
     font-size: calc(1.75695461em - var(--ffsd));
@@ -568,6 +591,10 @@ select option:first-child {
   #zS3glwYTNsoF8zsu,
   #batata {
     font-size: calc(16.84411433em - var(--ffsd));
+  }
+  #small-batata {
+    font-size: calc(0.5em - var(--ffsd));
+    margin-bottom: 5%;
   }
   #gDLobYBXGNOXQKMD {
     font-size: calc(16.84411433em - var(--ffsd));
@@ -1873,6 +1900,10 @@ select option:first-child {
     /* font-size: calc(23.44116086em - var(--ffsd)); */
     font-size: calc(13.65072554em - var(--ffsd));
   }
+  #small-batata {
+    font-size: calc(0.5em - var(--ffsd));
+    margin-bottom: 5%;
+  }
   #gDLobYBXGNOXQKMD {
     /* font-size: calc(23.44116086em - var(--ffsd)); */
     font-size: calc(10.65072554em - var(--ffsd));
@@ -2017,6 +2048,7 @@ select option:first-child {
   }
   #RRZD7kVO1JhpTHRA,
   #RRZD7kVO1JhpTHaa {
+    /* margin-top: 5%; */
     position: relative;
     grid-area: 7 / 4 / 9 / 32;
   }
@@ -3141,6 +3173,10 @@ select option:first-child {
   #batata {
     font-size: calc(14.65072554em - var(--ffsd));
   }
+  #small-batata {
+    font-size: calc(0.5em - var(--ffsd));
+    margin-bottom: 5%;
+  }
   #gDLobYBXGNOXQKMD {
     font-size: calc(14.65072554em - var(--ffsd));
   }
@@ -3911,8 +3947,8 @@ select option:first-child {
   }
   #cG1mESdT5BN60skA {
     position: relative;
-    grid-area: 4 / 7 / 6 / 12;
-    margin-top: -75px;
+    grid-area: 4 / 7 / 6 / 13;
+    /* margin-top: -75px; */
   }
   #BzxmqfBi4v23ljKm,
   #rsvp {
@@ -4399,6 +4435,10 @@ select option:first-child {
   #zS3glwYTNsoF8zsu,
   #batata {
     font-size: calc(10.98804415em - var(--ffsd));
+  }
+  #small-batata {
+    font-size: calc(0.5em - var(--ffsd));
+    margin-bottom: 5%;
   }
   #gDLobYBXGNOXQKMD {
     font-size: calc(10.98804415em - var(--ffsd));
@@ -5174,7 +5214,7 @@ select option:first-child {
   #cG1mESdT5BN60skA {
     position: relative;
     grid-area: 6 / 7 / 8 / 12;
-    margin-top: -10px;
+    margin-top: -55px;
   }
   #BzxmqfBi4v23ljKm,
   #rsvp {
@@ -5661,6 +5701,10 @@ select option:first-child {
   #zS3glwYTNsoF8zsu,
   #batata {
     font-size: calc(8.23701114em - var(--ffsd));
+  }
+  #small-batata {
+    font-size: calc(0.5em - var(--ffsd));
+    margin-bottom: 5%;
   }
   #gDLobYBXGNOXQKMD {
     font-size: calc(8.23701114em - var(--ffsd));
@@ -6428,6 +6472,7 @@ select option:first-child {
     position: relative;
     margin-top: 35px;
     grid-area: 5 / 6 / 5 / 12;
+    margin-top: -20px;
   }
   #BzxmqfBi4v23ljKm,
   #rsvp {
