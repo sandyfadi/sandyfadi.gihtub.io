@@ -2845,7 +2845,7 @@ select option:first-child {
   }
   #ecq0EYN7I8UoFnco {
     grid-template-columns: 3.33333333rem 0 0 12.24760997rem 0 3.02270743rem 0 15.61991772rem 31.55286309rem 15.61991772rem 0 2.35351501rem 2.88292823rem 10.03387416rem 0 0 3.33333333rem;
-    grid-template-rows: 0 minmax(4.2242336rem, max-content) minmax(15.75153093rem, max-content) 0 minmax(7.90810915rem, max-content) minmax(21.86610885rem, max-content) minmax(5.14590503rem, max-content) minmax(4.4421175rem, max-content) 0 minmax(34.28006593rem, max-content) minmax(6.25rem, max-content) minmax(15.03613152rem, max-content) minmax(4.22482626rem, max-content);
+    grid-template-rows: 0 minmax(4.2242336rem, max-content) minmax(15.75153093rem, max-content) 0 minmax(7.90810915rem, max-content) minmax(21.86610885rem, max-content) minmax(5.14590503rem, max-content) minmax(4.4421175rem, max-content) minmax(6.25rem, max-content) minmax(15.03613152rem, max-content) minmax(4.22482626rem, max-content);
   }
   #accommodation {
     min-height: calc(21.84448072 * var(--1vh, 1vh));
@@ -2913,6 +2913,7 @@ select option:first-child {
   #AgomuFCK9D2F33vq {
     position: relative;
     grid-area: 4 / 6 / 1 / 13;
+    margin-top: 60px;
   }
   #wXJiuTDnpMiz79u9 {
     position: relative;
