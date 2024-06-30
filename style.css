@@ -2686,7 +2686,8 @@ select option:first-child {
   }
   #cG1mESdT5BN60skA {
     position: relative;
-    grid-area: 6 / 14 / 6 / 5;
+    grid-area: 1 / 14 / 5 / 5;
+    margin-top: 30px;
   }
   #BzxmqfBi4v23ljKm,
   #rsvp {
@@ -2707,7 +2708,7 @@ select option:first-child {
   }
   #BnJY1I45uja30V5w {
     position: relative;
-    grid-area: 8 / 5 / 11 / 14;
+    grid-area: 6 / 5 / 11 / 14;
   }
   #NFgiUlvf8lshwcEN {
     position: relative;
