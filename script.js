@@ -18,7 +18,7 @@ Promise.all([fetch('_footer?lang=' + encodeURIComponent(lang)), loaded]).then(([
         document.body.append(child);
       }
     }
-
+    19 / 3 / 11 / 9
     (() => {
       !(function (e) {
         'use strict';
