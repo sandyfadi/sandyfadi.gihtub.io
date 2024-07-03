@@ -1405,7 +1405,7 @@ select option:first-child {
   }
   #BnJY1I45uja30V5w {
     position: relative;
-    grid-area: 8 / 7 / 11 / 11;
+    grid-area: 8 / 7 / 11 / 12;
   }
   #NFgiUlvf8lshwcEN {
     position: relative;
@@ -2708,7 +2708,7 @@ select option:first-child {
   }
   #BnJY1I45uja30V5w {
     position: relative;
-    grid-area: 6 / 5 / 11 / 11;
+    grid-area: 6 / 5 / 11 / 12;
   }
   #NFgiUlvf8lshwcEN {
     position: relative;
@@ -3967,11 +3967,11 @@ select option:first-child {
     margin-bottom: calc(var(--last-font-size) * -0.1);
   }
   #NyhNoh2fsXxhTwtd {
-    min-width: 54.10903481rem;
+    /* min-width: 54.10903481rem; */
   }
   #BnJY1I45uja30V5w {
     position: relative;
-    grid-area: 6 / 6 / 11 / 11;
+    grid-area: 6 / 6 / 11 / 12;
     margin-top: 20px;
   }
   #NFgiUlvf8lshwcEN {
