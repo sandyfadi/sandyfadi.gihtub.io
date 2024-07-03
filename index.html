@@ -1719,7 +1719,7 @@
                 >
                   <div id="RswWW6wa2jYrOoEC" style="flex-direction: column; display: flex; width: 100%; justify-content: flex-start; opacity: 1; box-sizing: border-box; height: 100%;">
                     <p id="kla7zHEnTUbPPCVC" style="text-transform: none; color: #4a2d16; letter-spacing: 0em; font-family: YADiltUeF10-0; line-height: 0.9886358em; text-align: center;">
-                      <span id="DURbK3KitYjfe3YU" style="color: #4a2d16; font-weight: 700;">Be Our<br/>Guest!</span><br />
+                      <span id="DURbK3KitYjfe3YU" style="color: #4a2d16; font-weight: 700;">Be Our Guest!</span><br />
                     </p>
                   </div>
                 </div>
@@ -2027,7 +2027,7 @@
 
       // Disable the button and show loading animation
       submitButton.disabled = true;
-      loader.style.visibility = 'visible';
+      loader.style.display = 'inline-block';
 
       const serviceID = 'service_sandyfadi'; // Replace with your actual service ID
       const templateID = 'template_cy8xlgd'; // Replace with your actual template ID
@@ -2044,15 +2044,15 @@
           alert('Your RSVP has been sent!');
           // Re-enable the button and hide loading animation
           submitButton.disabled = false;
-          submitButton.textContent = originalButtonText;
-          loader.style.visibility = 'hidden';
+          // submitButton.textContent = originalButtonText;
+          loader.style.display = 'none';
         }, function(error) {
           console.log('FAILED...', error);
           alert('There was an error sending your RSVP. Please try again.');
           // Re-enable the button and hide loading animation
           submitButton.disabled = false;
-          submitButton.textContent = originalButtonText;
-          loader.style.visibility = 'hidden';
+          // submitButton.textContent = originalButtonText;
+          loader.style.display = 'none';
         });
     });
   </script>

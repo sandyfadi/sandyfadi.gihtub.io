@@ -12,7 +12,7 @@
   animation: spin 2s linear infinite;
   display: inline-block;
   vertical-align: middle;
-  visibility: hidden;
+  display: none;
 }
 
 .libre-baskerville-regular {
